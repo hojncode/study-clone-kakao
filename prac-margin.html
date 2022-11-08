@@ -7,6 +7,13 @@
     <title>Document</title>
   </head>
   <style>
+    /* *는 전체를 뜻함. 모든 태그들에 적용 시킴 */
+    * {
+        border: 2px solid black;
+    }
+    html {
+        background-color: darkslategrey;
+    }
     body {
         background-color: thistle;
     }
@@ -16,6 +23,9 @@
         width: 100px;
         margin: 10px;
         padding: 1px;
+    }
+    span {
+        border: 10px solid black;
     }
     #first {
       background-color: aquamarine;
@@ -35,7 +45,9 @@
       <div id="first">
         <div id="second">
           <div id="third">
-            <div id="fourth"></div>
+            <div id="fourth">
+                <span>span</span>
+            </div>
           </div>
         </div>
       </div>
