@@ -1,0 +1,89 @@
+body {
+    background-color: gainsboro;
+    width: 1440px;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrap {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.firstBox {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: tomato;
+    
+}
+
+.firstBox--info {
+    background-color: white;
+    height: 100px;    
+}
+
+.secondBox {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #008080;
+    
+}
+
+.secondBox--info {
+    background-color: white;
+    height: 100px;    
+}
+
+
+.thirdBox {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #DEB887;
+    
+}
+
+.thirdBox--info {
+    background-color: white;
+    height: 100px;    
+}
+
+.fourthBox {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #D7BFD7;
+    
+}
+
+.fourthBox--info {
+    background-color: white;
+    height: 100px;    
+}
+
+
+
