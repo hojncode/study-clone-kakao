@@ -1,0 +1,94 @@
+html {
+    background-color: #6ABCBE;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots {
+    /* width: 100px;
+    height: 100px; */
+    /* transition: transform 1s ease; */
+    animation: dots 1s ease infinite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+   
+}
+
+
+@keyframes dots {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(180deg)
+    }
+}
+
+.dot {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin:auto;
+    border-radius: 50%;
+}
+
+
+
+.bar {
+    background-color: white;
+    width: 10px;
+    height: 30px;
+    margin-left: 10px;
+    animation: bar 1s ease-in-out infinite;
+}
+
+
+.bar:nth-child(2) {
+    animation-delay: 0.1s;
+}
+.bar:nth-child(3){
+    animation-delay: 0.2s;
+}
+.bar:nth-child(4) {
+    animation-delay: 0.3s;
+}
+.bar:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+
+
+
+@keyframes bar {
+   0% {
+    transform: scaleY(1)
+   }
+   50% {
+    transform: scaleY(2)
+   }
+
+   75% {
+    transform: scaleY(1);
+   }
+
+   100% {
+    transform: scaleY(1)
+   }
+}
+
+
