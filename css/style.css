@@ -3,9 +3,11 @@
 @import "reset.css";
 @import "./variables.css";
 
+@import "./screens/login.css";
+
 @import "./components/status-bar.css";
 @import "./components/nav-bar.css";
-@import "./screens/login.css";
+@import "./components/screen-header.css";
 
 body {
     font-family: 'Raleway', sans-serif;
