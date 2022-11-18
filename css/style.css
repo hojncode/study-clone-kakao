@@ -9,6 +9,7 @@
 @import "./components/status-bar.css";
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
+@import "./components/user-component.css";
 
 body {
     font-family: 'Raleway', sans-serif;
