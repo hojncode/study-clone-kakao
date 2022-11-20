@@ -2,14 +2,15 @@
 
 @import "reset.css";
 @import "./variables.css";
-
+/* screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
-
+/* components */
 @import "./components/status-bar.css";
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
 
 body {
     font-family: 'Raleway', sans-serif;
