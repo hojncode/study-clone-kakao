@@ -17,12 +17,6 @@
     color:#2e363e;
 }
 
-.nav__notification {
-    position:absolute;
-    left: 15px;
-    bottom: 15px;
-}
-
 .nav__link--dot {
     width: 5px;
     height: 5px;
@@ -31,3 +25,51 @@
     position: absolute;
     right: -5px;
 }
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-5px) rotateY(90deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.nav__notification {
+    position:absolute;
+    left: 15px;
+    bottom: 15px;
+    animation : notificationAnimation 0.5s ease-out;
+}
+
+@keyframes appearBtnAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.nav__btn {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearBtnAnimation 0.2s ease-out forwards;
+}
+
+.nav__btn:nth-child(2) {
+    animation-delay: 0..5s;
+}
+
+.nav__btn:nth-child(3) {
+    animation-delay: 0.1s;
+}
+
+.nav__btn:nth-child(4) {
+    animation-delay: 0.15s;
+}
+
